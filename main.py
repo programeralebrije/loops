@@ -160,3 +160,28 @@ print(colors)
 
 numbers = list(range(1, 10))
 print(numbers)
+
+
+numbers = [2, 6, 3, 9, 1, 10]
+strings = ['dog', 'cat', 'bird']
+
+#sort numerically
+numbers.sort()
+
+# sort alphabetically
+strings.sort()
+
+print(numbers)
+print(strings)
+
+
+numbers = [2, 6, 3, 9, 1, 10]
+
+print("This is the original set of numbers: ")
+print(numbers)
+
+print("This is the sorted set of numbers: ")
+print(sorted(numbers))
+
+print("This is the original set of numbers again: ")
+print(numbers)
