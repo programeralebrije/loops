@@ -185,3 +185,39 @@ print(sorted(numbers))
 
 print("This is the original set of numbers again: ")
 print(numbers)
+
+# Iterating Over a Collection
+
+countries = ['USA', 'Canada', 'England', 'Ireland']
+print(countries)
+
+countries = ['USA', 'Canada', 'England', 'Ireland']
+
+# loop through list of countries using `for` loop
+for country in countries:
+    print(country)
+
+    # 1. a list of numbers from 1-5
+all_numbers = [1, 2, 3, 4, 5]
+
+# 2. an empty list that will store even numbers
+even_numbers = []
+
+# 3. loop through `all_numbers` and add the even
+# numbers to the `even_numbers` list
+for the_number in all_numbers:
+    # 4. if the number is even, add to `even_numbers`
+    if the_number % 2 == 0:
+        even_numbers.append(the_number)
+    else:
+        print("Ignoring the odd number: ", the_number)
+
+# 5. print out `even_numbers`
+print(even_numbers)
+
+numbers = [10, 25, 50]
+doubled_numbers = []
+for number in numbers:
+    doubled_numbers.append(number * 2)
+
+print(doubled_numbers)
