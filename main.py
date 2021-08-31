@@ -154,3 +154,9 @@ colors.remove("white")
 colors.append('purple')
 
 print(colors)
+
+
+# Creating a List from a Range of Numbers
+
+numbers = list(range(1, 10))
+print(numbers)
