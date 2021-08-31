@@ -76,3 +76,26 @@ middle_two_items = colors_list[1:3]
 
 print(first_three_items)
 print(middle_two_items)
+
+# Modifying Lists
+
+# the starting list
+contacts = ['Sally', 'Bob', 'Mary', 'Steven']
+
+# Bob prefers to go by "Robert"
+# Bob is at index 1 in the list
+contacts[2] = "Robert"
+
+print(contacts)
+
+colors_list = ['white', 'white', 'white', 'white']
+print(colors_list)
+
+colors_list[0] = 'red'
+colors_list[1] = 'green'
+colors_list[2] = 'blue'
+colors_list[3] = 'yellow'
+print(colors_list)
+
+colors_list[-1] = 'purple'
+print(colors_list)
