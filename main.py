@@ -221,3 +221,18 @@ for number in numbers:
     doubled_numbers.append(number * 2)
 
 print(doubled_numbers)
+
+all_numbers = [1, 2, 3, 4, 5]
+even_numbers = []
+
+# use a while loop to iterate over the list
+current_position = 0
+while current_position < len(all_numbers):
+    the_number = all_numbers[current_position]
+    if the_number % 2 == 0:
+        even_numbers.append(the_number)
+    else:
+        print("Ignoring the odd number: ", the_number)
+    current_position += 1
+
+print(even_numbers)
