@@ -236,3 +236,19 @@ while current_position < len(all_numbers):
     current_position += 1
 
 print(even_numbers)
+
+for letter in "Sally":
+  if letter == "l":
+    break
+  print("Current letter: " + letter)
+
+print("The loop is over.")
+
+
+everyone = ['Sally', 'Billy', 'Mary', 'Bob']
+looking_for = 'Mary'
+
+for person in everyone:
+    if person != looking_for:
+        continue
+    print("Found " + looking_for + "!")
